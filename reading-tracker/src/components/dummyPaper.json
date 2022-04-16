@@ -1,0 +1,344 @@
+{
+  "indexed": {
+    "date-parts": [[2022, 4, 13]],
+    "date-time": "2022-04-13T13:00:13Z",
+    "timestamp": 1649854813628
+  },
+  "reference-count": 25,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "3",
+  "license": [
+    {
+      "start": {
+        "date-parts": [[2006, 2, 7]],
+        "date-time": "2006-02-07T00:00:00Z",
+        "timestamp": 1139270400000
+      },
+      "content-version": "unspecified",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": ["www.plosbiology.org"],
+    "crossmark-restriction": false
+  },
+  "short-container-title": ["PLoS Biol"],
+  "DOI": "10.1371/journal.pbio.0040054",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [[2006, 2, 1]],
+    "date-time": "2006-02-01T00:09:11Z",
+    "timestamp": 1138752551000
+  },
+  "page": "e54",
+  "update-policy": "http://dx.doi.org/10.1371/journal.pbio.corrections_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 85,
+  "title": ["Insect Detection of Small Targets Moving in Visual Clutter"],
+  "prefix": "10.1371",
+  "volume": "4",
+  "author": [
+    {
+      "given": "Karin",
+      "family": "Nordstr\u00f6m",
+      "sequence": "first",
+      "affiliation": []
+    },
+    {
+      "given": "Paul D",
+      "family": "Barnett",
+      "sequence": "additional",
+      "affiliation": []
+    },
+    {
+      "given": "David C",
+      "family": "O'Carroll",
+      "sequence": "additional",
+      "affiliation": []
+    }
+  ],
+  "member": "340",
+  "published-online": { "date-parts": [[2006, 2, 7]] },
+  "reference": [
+    {
+      "key": "pbio-0040054-b001",
+      "doi-asserted-by": "crossref",
+      "first-page": "2053",
+      "DOI": "10.1016/S0042-6989(03)00304-3",
+      "article-title": "The visual acuity and refractive state of the American kestrel(Falco sparverius).",
+      "volume": "43",
+      "year": "2003",
+      "journal-title": "Vision Res"
+    },
+    {
+      "key": "pbio-0040054-b002",
+      "doi-asserted-by": "crossref",
+      "first-page": "505",
+      "DOI": "10.1016/S0959-4388(97)80030-X",
+      "article-title": "Insect visual perception: complex abilities of simple nervous systems.",
+      "volume": "7",
+      "year": "1997",
+      "journal-title": "Curr Opin Neurobiol"
+    },
+    {
+      "key": "pbio-0040054-b003",
+      "first-page": "437",
+      "article-title": "Vision during flight.",
+      "volume-title": "The compound eye and vision of insects",
+      "year": "1975"
+    },
+    {
+      "key": "pbio-0040054-b004",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1007/BF01464710",
+      "article-title": "Visual control of flight behaviour in the hoverfly,Syritta pipiens L.",
+      "volume": "99",
+      "year": "1975",
+      "journal-title": "J Comp Physiol"
+    },
+    {
+      "key": "pbio-0040054-b005",
+      "doi-asserted-by": "crossref",
+      "first-page": "191",
+      "DOI": "10.1007/BF00656597",
+      "article-title": "How hoverflies compute interception courses.",
+      "volume": "125",
+      "year": "1978",
+      "journal-title": "J Comp Physiol A"
+    },
+    {
+      "key": "pbio-0040054-b006",
+      "volume-title": "British hoverflies",
+      "year": "1996"
+    },
+    {
+      "key": "pbio-0040054-b007",
+      "doi-asserted-by": "crossref",
+      "first-page": "127",
+      "DOI": "10.1038/232127a0",
+      "article-title": "Visual neurones for tracking moving targets.",
+      "volume": "232",
+      "year": "1971",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "pbio-0040054-b008",
+      "doi-asserted-by": "crossref",
+      "first-page": "541",
+      "DOI": "10.1038/362541a0",
+      "article-title": "Feature-detecting neurons in dragonflies.",
+      "volume": "362",
+      "year": "1993",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "pbio-0040054-b009",
+      "first-page": "395",
+      "article-title": "The functional organization of male-specific visual neurons in flies.",
+      "volume": "169",
+      "year": "1991",
+      "journal-title": "J Comp Physiol"
+    },
+    {
+      "key": "pbio-0040054-b010",
+      "first-page": "195",
+      "article-title": "On the neuronal basis of figure-ground discrimination by relative motion in the visual system of the fly. II. Figure-detection cells, a new class of visual interneurones.",
+      "volume": "52",
+      "year": "1985",
+      "journal-title": "Biol Cybern"
+    },
+    {
+      "key": "pbio-0040054-b011",
+      "doi-asserted-by": "crossref",
+      "first-page": "329",
+      "DOI": "10.1152/jn.1993.69.2.329",
+      "article-title": "Neural circuit tuning fly visual interneurons to motion of small objects. I. Dissection of the circuit by pharmacological and photoinactivation techniques.",
+      "volume": "69",
+      "year": "1993",
+      "journal-title": "J Neurophysiol"
+    },
+    {
+      "key": "pbio-0040054-b012",
+      "doi-asserted-by": "crossref",
+      "first-page": "391",
+      "article-title": "Neural mechanisms of visual course control in insects.",
+      "volume-title": "Facets of vision",
+      "year": "1989",
+      "DOI": "10.1007/978-3-642-74082-4_18"
+    },
+    {
+      "key": "pbio-0040054-b013",
+      "doi-asserted-by": "crossref",
+      "first-page": "9805",
+      "DOI": "10.1523/JNEUROSCI.23-30-09805.2003",
+      "article-title": "Input organization of multifunctional motion-sensitive neurons in the blowfly.",
+      "volume": "23",
+      "year": "2003",
+      "journal-title": "J Neurosci"
+    },
+    {
+      "key": "pbio-0040054-b014",
+      "doi-asserted-by": "crossref",
+      "first-page": "595",
+      "DOI": "10.1016/S0896-6273(00)00136-7",
+      "article-title": "Contrast gain reduction in fly motion adaptation.",
+      "volume": "28",
+      "year": "2000",
+      "journal-title": "Neuron"
+    },
+    {
+      "key": "pbio-0040054-b015",
+      "doi-asserted-by": "crossref",
+      "first-page": "419",
+      "DOI": "10.1007/s00359-002-0316-8",
+      "article-title": "Neural networks in the cockpit of the fly.",
+      "volume": "188",
+      "year": "2002",
+      "journal-title": "J Comp Physiol A"
+    },
+    {
+      "key": "pbio-0040054-b016",
+      "doi-asserted-by": "crossref",
+      "first-page": "3177",
+      "DOI": "10.1016/j.visres.2004.07.027",
+      "article-title": "Figure-ground segregation can rely on differences in motion direction.",
+      "volume": "44",
+      "year": "2004",
+      "journal-title": "Vision Res"
+    },
+    {
+      "key": "pbio-0040054-b017",
+      "doi-asserted-by": "crossref",
+      "first-page": "351",
+      "DOI": "10.1016/0166-2236(88)90057-4",
+      "article-title": "Visual course control in flies relies on neuronal computation of object and background motion.",
+      "volume": "11",
+      "year": "1988",
+      "journal-title": "Trends Neurosci"
+    },
+    {
+      "key": "pbio-0040054-b018",
+      "doi-asserted-by": "crossref",
+      "first-page": "525",
+      "DOI": "10.1007/BF00613976",
+      "article-title": "Maps of the acute zones of fly eyes.",
+      "volume": "156",
+      "year": "1985",
+      "journal-title": "J Comp Physiol A"
+    },
+    {
+      "key": "pbio-0040054-b019",
+      "doi-asserted-by": "crossref",
+      "first-page": "63",
+      "DOI": "10.1038/382063a0",
+      "article-title": "Insect motion detectors matched to visual ecology.",
+      "volume": "382",
+      "year": "1996",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "pbio-0040054-b020",
+      "doi-asserted-by": "crossref",
+      "first-page": "1340",
+      "DOI": "10.1364/JOSA.69.001340",
+      "article-title": "Motion and vision. II. Stabilized spatio-temporal threshold surface.",
+      "volume": "69",
+      "year": "1979",
+      "journal-title": "J Opt Soc Am"
+    },
+    {
+      "key": "pbio-0040054-b021",
+      "doi-asserted-by": "crossref",
+      "first-page": "603",
+      "DOI": "10.1007/BF01052331",
+      "article-title": "The mating system of a bee fly(Diptera: Bombyliidae). I. Non-resource-based hilltop territoriality and a resource-based alternative.",
+      "volume": "3",
+      "year": "1990",
+      "journal-title": "J Insect Behav"
+    },
+    {
+      "key": "pbio-0040054-b022",
+      "doi-asserted-by": "crossref",
+      "first-page": "225",
+      "DOI": "10.1016/S0042-6989(96)00114-9",
+      "article-title": "A fast stimulus procedure to determine local receptive field properties of motion-sensitive visual interneurons.",
+      "volume": "37",
+      "year": "1997",
+      "journal-title": "Vision Res"
+    },
+    {
+      "key": "pbio-0040054-b023",
+      "doi-asserted-by": "crossref",
+      "first-page": "239",
+      "DOI": "10.1007/BF00612641",
+      "article-title": "Angular sensitivity of blowfly photoreceptors: Intracellular measurements and wave-optical predictions.",
+      "volume": "155",
+      "year": "1984",
+      "journal-title": "J Comp Physiol A"
+    },
+    {
+      "key": "pbio-0040054-b024",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1007/s00359-002-0370-2",
+      "article-title": "Angular and spectral sensitivity of fly photoreceptors. I. Integrated facet lens and rhabdomere optics.",
+      "volume": "189",
+      "year": "2003",
+      "journal-title": "J Comp Physiol A"
+    },
+    {
+      "key": "pbio-0040054-b025",
+      "doi-asserted-by": "crossref",
+      "first-page": "74",
+      "article-title": "Photoreceptors optics, theory and practics.",
+      "volume-title": "Facets of vision",
+      "year": "1989",
+      "DOI": "10.1007/978-3-642-74082-4_4"
+    }
+  ],
+  "container-title": ["PLoS Biology"],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://dx.plos.org/10.1371/journal.pbio.0040054",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [[2020, 5, 6]],
+    "date-time": "2020-05-06T20:48:22Z",
+    "timestamp": 1588798102000
+  },
+  "score": 1,
+  "resource": {
+    "primary": { "URL": "https://dx.plos.org/10.1371/journal.pbio.0040054" }
+  },
+  "subtitle": [],
+  "editor": [
+    { "given": "Tom", "family": "Collett", "sequence": "first", "affiliation": [] }
+  ],
+  "short-title": [],
+  "issued": { "date-parts": [[2006, 2, 7]] },
+  "references-count": 25,
+  "journal-issue": {
+    "issue": "3",
+    "published-online": { "date-parts": [[2006, 2, 7]] }
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pbio.0040054",
+  "relation": {},
+  "ISSN": ["1545-7885"],
+  "issn-type": [{ "value": "1545-7885", "type": "electronic" }],
+  "subject": [
+    "General Agricultural and Biological Sciences",
+    "General Immunology and Microbiology",
+    "General Biochemistry, Genetics and Molecular Biology",
+    "General Neuroscience"
+  ],
+  "published": { "date-parts": [[2006, 2, 7]] },
+  "read": false
+}
