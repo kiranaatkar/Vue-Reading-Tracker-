@@ -2,7 +2,11 @@
   <div class="container">
     <AppHeader @toggle-add-paper="toggleAddPaper" :showAddPaper="showAddPaper" />
     <AddPaper v-show="showAddPaper" @add-paper="addPaper" />
-    <PaperDisplay :papers="papers" @toggle-read="toggleRead" />
+    <PaperDisplay
+      :papers="papers"
+      @toggle-read="toggleRead"
+      @delete-paper="deletePaper"
+    />
   </div>
 </template>
 
@@ -33,11 +37,16 @@ export default {
       this.showAddPaper = false;
       this.papers.unshift({ ...paperObj, read: false });
     },
+    deletePaper(doi) {
+      if (confirm('Are you sure?')) {
+        this.papers = this.papers.filter((p) => {
+          return p.DOI !== doi;
+        });
+      }
+    },
     toggleRead(doi) {
-      const paperToChange = this.papers.find((p) => p.DOI === doi);
-      paperToChange.read = !paperToChange.read;
-      const restOfPapers = this.papers.filter((p) => p.DOI !== doi);
-      this.papers = [...restOfPapers, paperToChange];
+      const paperIndex = this.papers.findIndex((p) => p.DOI === doi);
+      this.papers[paperIndex].read = !this.papers[paperIndex].read;
     },
   },
 };

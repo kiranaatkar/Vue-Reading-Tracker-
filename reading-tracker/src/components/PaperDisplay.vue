@@ -2,7 +2,11 @@
   <div>
     <h2>papers</h2>
     <div v-for="paper in papers" :key="paper.DOI">
-      <PaperCard :paper="paper" @toggle-read="$emit('toggle-read', paper.DOI)" />
+      <PaperCard
+        :paper="paper"
+        @toggle-read="$emit('toggle-read', paper.DOI)"
+        @delete-paper="$emit('delete-paper', paper.DOI)"
+      />
     </div>
   </div>
 </template>
