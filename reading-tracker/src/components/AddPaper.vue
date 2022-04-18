@@ -5,7 +5,7 @@
       <input type="text" v-model="doi" name="doi" placeholder="Enter paper doi here" />
     </div>
 
-    <input type="submit" value="Save Paper" class="btn btn-block" :disabled="!doi" />
+    <input type="submit" value="Save Paper" class="btn" :disabled="!doi" />
   </form>
 </template>
 
@@ -59,5 +59,23 @@ export default {
   margin: 5px;
   padding: 3px 7px;
   font-size: 17px;
+}
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: inherit;
+}
+.btn:focus {
+  outline: none;
+}
+.btn:active {
+  transform: scale(0.98);
 }
 </style>

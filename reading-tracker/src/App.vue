@@ -6,6 +6,7 @@
       :papers="papers"
       @toggle-read="toggleRead"
       @delete-paper="deletePaper"
+      @edit-comment="editComment"
     />
   </div>
 </template>
@@ -35,7 +36,7 @@ export default {
     },
     addPaper(paperObj) {
       this.showAddPaper = false;
-      this.papers.unshift({ ...paperObj, read: false });
+      this.papers.unshift({ ...paperObj, read: false, comment: '' });
     },
     deletePaper(doi) {
       if (confirm('Are you sure?')) {
@@ -47,6 +48,10 @@ export default {
     toggleRead(doi) {
       const paperIndex = this.papers.findIndex((p) => p.DOI === doi);
       this.papers[paperIndex].read = !this.papers[paperIndex].read;
+    },
+    editComment(newComment, doi) {
+      const paperIndex = this.papers.findIndex((p) => p.DOI === doi);
+      this.papers[paperIndex].comment = newComment;
     },
   },
 };
@@ -64,7 +69,7 @@ body {
 }
 
 .container {
-  max-width: 500px;
+  max-width: 700px;
   margin: 30px auto;
   overflow: auto;
   min-height: 500px;

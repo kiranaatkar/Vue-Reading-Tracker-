@@ -340,5 +340,6 @@
     "General Neuroscience"
   ],
   "published": { "date-parts": [[2006, 2, 7]] },
-  "read": false
+  "read": false,
+  "comment": "Read up to page 5, use figure 2.3"
 }
